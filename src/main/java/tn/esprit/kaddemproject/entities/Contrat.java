@@ -36,5 +36,7 @@ public class Contrat implements Serializable{
     @ManyToOne
     private Etudiant etudiant;
 
-
+    public Contrat(Integer montantContrat) {
+        this.montantContrat = montantContrat;
+    }
 }
